@@ -7,14 +7,11 @@ import Cards from "./components/Cards/Cards";
 
 const App = () => {
 
-  const mappedBeers = beers.map((beer) => {
-    return <Beer name = {beer}/>
-  })
+  const mappedBeers = beers.map(beer => {
+    return <Beer drink = {beer} />
+  });
  
 
-
-
-  
   return (
    
     <div className="App">
@@ -25,6 +22,7 @@ const App = () => {
         <Search />
         <CheckBox />
         {mappedBeers}
+    
     </div>
   
   );
