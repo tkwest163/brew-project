@@ -1,13 +1,14 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 
 
 .card {
     display: grid;
     margin: 10px;
     padding: 10px;
+    font-family: 'Source Serif Pro', serif;
     .image {
-        width: 50%;
+        width: 20%;
         float: center;
         margin: 40%;
     }
