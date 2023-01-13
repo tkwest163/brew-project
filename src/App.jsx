@@ -19,11 +19,11 @@ const App = () => {
 
 useEffect (() => {
   fetch(url)
-  .then ((response) => {
-    if (response.ok) {
-      return response.json();
+  .then ((res) => {
+    if (res.ok) {
+      return res.json();
     } 
-    throw response;
+    throw res;
   })
   .then ((data) => {
     setBeerData(data)
