@@ -11,7 +11,7 @@ return (
   <input 
     type="search"
     placeholder="Search..."
-    size="50"
+    size="80"
     onInput={handleInput}
     className="search__input"
     />
