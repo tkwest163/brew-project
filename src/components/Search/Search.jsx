@@ -1,17 +1,24 @@
-import React from 'react';
 import "./Search.scss";
 
-const Search = () => {
+const Search = (props) => {
+  const { searchInput, handleInput } = props;
+  
+return (
+  
+ <form className="search">
+  <label className="search__label">
+  </label>
+  <input 
+    type="search"
+    placeholder="Search..."
+    size="50"
+    onInput={handleInput}
+    className="search__input"
+    />
+ </form>
 
+)
 
-
-  return (
-    <>
-    <div className="search">
-    <input type="text" placeholder="Search..." size="50"></input>
-    </div>
-    </>
-  )
-}
+};
 
 export default Search;

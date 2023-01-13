@@ -1,0 +1,27 @@
+
+
+
+
+.card {
+    display: grid;
+    margin: 10px;
+    padding: 10px;
+    .image {
+        width: 50%;
+        float: center;
+        margin: 40%;
+    }
+
+    .card-contents {
+        border: 2px solid whitesmoke;
+    }
+
+    p {
+        display: block;
+        align-items: flex-start;
+        margin: 10px;
+    }
+}
+
+
+
