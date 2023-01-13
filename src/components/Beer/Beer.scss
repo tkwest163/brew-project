@@ -8,6 +8,7 @@
     padding: 10px;
     font-family: 'Source Serif Pro', serif;
     line-height: 2;
+    
     .image {
         width: 20%;
         float: center;
@@ -15,7 +16,7 @@
     }
 
     .card-contents {
-        border: 2px solid whitesmoke
+        border: 2px solid whitesmoke;
     }
 
     p {
@@ -23,6 +24,14 @@
         align-items: flex-start;
         margin: 10px;
     }
+}
+
+.card:hover {
+    box-shadow: inset 0 0 0 10em white;
+}
+
+.card-contents:hover {
+    box-shadow: inset 0 0 0 10em white;
 }
 
 
