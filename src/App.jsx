@@ -65,8 +65,10 @@ useEffect (() => {
   });
 
   const phChanged = () => {
-    setPhChecked(true)
+    setPhChecked(!phChecked)
   };
+
+
  
   return (
    <Router>

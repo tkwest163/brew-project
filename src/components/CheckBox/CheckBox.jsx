@@ -3,7 +3,7 @@ import "./CheckBox.scss";
 
 const CheckBox = (props) => {
 
-    const { abvChange, classicChange, isPhChecked } = props;
+    const { abvChange, classicChange, phChanged } = props;
 
   return (
     <div className="checkbox-wrapper">
@@ -17,7 +17,7 @@ const CheckBox = (props) => {
             <span>Classic Range</span>
         </label>
         <label>
-            <input type="checkbox" onChange={isPhChecked}/>
+            <input type="checkbox" onChange={phChanged}/>
             <span>Acidic (pH less than 4)</span>
         </label>
    </div>
